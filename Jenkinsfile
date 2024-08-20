@@ -5,7 +5,7 @@ pipeline {
     stage('Maven Install') {
       agent {
         docker {
-          image 'maven:3.5.0-jdk-8-alpine'
+          image 'maven:3.5.0-jdk-8'
         }
       }
       steps {
