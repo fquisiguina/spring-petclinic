@@ -10,9 +10,9 @@ pipeline {
       }
       steps {
         sh '''
-                #!/bin/bash
-                java -version
-                '''
+        #!/bin/bash
+        echo "Usando bash en lugar de sh"
+        '''
       }
     }
   }
